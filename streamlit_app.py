@@ -13,7 +13,7 @@ import streamlit as st
 # Now you can import and query your models like normal Django code
 
 
-st.title("Questionnaire Responses to NIHR mental health sub-group")
+st.title("Questionnaire Responses to NIHR Economics mental health sub-group")
 
 
 df = pd.read_csv('Question-2026-09-29.csv')
@@ -62,7 +62,7 @@ newcastle = uni.str.contains("Newcastle", regex=False, na=False)
 
 st.subheader("Institutions")
 
-st.write(f"Representation from 18 different universities") 
+st.write(f"Responses from 18 different universities") 
 
 york = york.sum() + uoy.sum()
 

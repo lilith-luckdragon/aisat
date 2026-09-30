@@ -15,6 +15,7 @@ import streamlit as st
 
 st.title("Questionnaire Responses to NIHR Economics mental health sub-group")
 
+st.image("qr_code.png")
 
 df = pd.read_csv('Question-2026-09-29.csv')
 
